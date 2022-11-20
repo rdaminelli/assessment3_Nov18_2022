@@ -1,0 +1,110 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.column1 {
+	float: left;
+	width: 30%;
+	margin-left: 2%;
+	background-color: rgb(236, 236, 236);
+	padding: 1%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 600px;
+}
+
+.column2 {
+	display: flex;
+	float: left;
+	width: 61%;
+	margin-left: 2%;
+	background-color: rgb(236, 236, 236);
+	padding: 1%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 600px;
+}
+
+.center {
+	text-align: center;
+}
+
+.personalItems {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 20px;
+}
+
+.quote {
+	font-style: italic;
+}
+
+footer {
+	padding: 350px;
+}
+
+.btnStyle{
+	width: 300px;
+	height: 35px;
+	background-color: yellow;
+	color: firebrick;
+	border-radius: 50px;
+}
+
+.btnStyle:hover {
+	background-color: orange;
+	color: rgb(75, 0, 0);
+	transition: .5s;
+}
+
+.parag{
+	text-align: justify;
+	text-indent: 40px;
+}
+
+.echo {
+	float:right;
+	margin: 20px;
+}
+
+.restaurant{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
